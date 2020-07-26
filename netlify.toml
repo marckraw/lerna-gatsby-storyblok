@@ -1,6 +1,14 @@
   
 [build]
-  command = "yarn run gatsby-storyblok-boilerplate:build"
+  functions = "functions/"
+
+[context.production]
+  command = "production script"
+  environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "12.18.2" }
+
+[context.staging]
+  command = "staging script"
+  environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "12.18.2", CONTENT_VERSION = "draft" }
 
 [[plugins]]
 package = "/plugins/netlify-plugin-hello-world"
