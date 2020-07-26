@@ -39,7 +39,8 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "hsey:inverse:build": "cd ../../ && npm run common:build && npm run gatsby-storyblok-boilerplate:build"
+    "hsey:inverse:build": "cd ../../ && npm run common:build && npm run gatsby-storyblok-boilerplate:build",
+    "hsey2:inverse:build": "cd ../../ && npm run clean-and-bootstrap && npm run common:build && npm run gatsby-storyblok-boilerplate:build"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
