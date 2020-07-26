@@ -3,11 +3,9 @@
   functions = "functions/"
 
 [context.production]
-  command = "production script"
   environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "12.18.2" }
 
 [context.staging]
-  command = "staging script"
   environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "12.18.2", CONTENT_VERSION = "draft" }
 
 [[plugins]]

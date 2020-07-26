@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "João Matos <jhpmatos@gmail.com>",
   "dependencies": {
-    "@hsey/common": "^1.0.0",
+    "@hsey/common": "file:../common",
     "core-js": "2.6.5",
     "gatsby": "^2.19.23",
     "gatsby-image": "^2.2.30",
