@@ -15,7 +15,7 @@
     "hsey2:inverse:build": "cd ../../ && npm run common:build && npm run gatsby-site:build"
   },
   "dependencies": {
-    "@hsey/common": "^1.0.0",
+    "@hsey/common": "file:../common",
     "gatsby": "^2.23.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
