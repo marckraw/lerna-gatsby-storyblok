@@ -1,9 +1,6 @@
 {
   "name": "root",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "test": "lerna exec --parallel -- yarn test",
     "start-project": "cd packages/project-1 && npm start",
