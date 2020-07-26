@@ -9,7 +9,7 @@
     "alice": "cd packages/alice && npm start",
     "bob": "cd packages/bob && npm start",
     "gatsby-site": "lerna run start --scope=gatsby-site --stream",
-    "gatsby-site:build": "cd packages/gatsby-site && npm run build",
+    "gatsby-site:build": "cd packages/gatsby-site && npm install && npm run build",
     "gatsby-storyblok-boilerplate": "lerna run start --scope=gatsby-storyblok-boilerplate --stream",
     "gatsby-storyblok-boilerplate:build": "cd packages/gatsby-storyblok-boilerplate && npm install && npm run build",
     "common:build": "cd packages/common && npm run build",
